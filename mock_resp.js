@@ -1,0 +1,13 @@
+/**
+ *
+ * @type {number}
+ */
+
+ var data = {
+	"$SysResult$": {
+		"$SysCode$": "500",
+		"$Content$": "{\"Map\":\"C001A004\",\"CardLists\":[\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\"],\"DbtCardEList\":[],\"DepositLists\":{\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\":3099043.48},\"DepositDLists\":{\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\":3099043.48},\"DepositELists\":{},\"RmbFreezeList\":{\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\":{\"expectBal\":\"0.00\",\"avlBal\":\"3099043.48\",\"freezeBal\":\"0.00\",\"acctNo\":\"121803977320002\"}},\"DepositListInfo\":{\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\":{\"Balance\":3099043.48,\"ExpectBal\":0.0,\"AvlBal\":3099043.48,\"FreezeBal\":0.0,\"AcctNo\":\"121803977320002\",\"AccountUid\":\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\",\"AccountType\":\"1\",\"IsDeposit\":true,\"AcctRemark\":\"\",\"IsLendingOneness\":false,\"CardTailNo\":\"0531\",\"IsPension\":false,\"ActTyp\":\"A1000101\"}},\"ForDepLists\":{},\"RegularDeposit\":{},\"RegularDepositAccountList\":[],\"BigRegularAccountList\":[],\"InformDeposit\":{},\"EnjoyFixDeposit\":{},\"AutoFundBal\":0.0,\"BigRegular\":{},\"ScrollDepositCardList\":\"\",\"ConsumeAccount\":{},\"UidCardRelation\":{\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\":{\" DisplayCardNo\":\"6214********0531\",\"TailCardNo\":\"0531\"}},\"ErrCode\":\"200\",\"DispMsg\":null,\"ProductErrDict\":{},\"DepositDSortLists\":[{\"Key\":\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\",\"Value\":3099043.48}],\"DepositESortLists\":[],\"DepositSortListInfo\":[{\"Key\":\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\",\"Value\":{\"Balance\":3099043.48,\"ExpectBal\":0.0,\"AvlBal\":3099043.48,\"FreezeBal\":0.0,\"AcctNo\":\"121803977320002\",\"AccountUid\":\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\",\"AccountType\":\"1\",\"IsDeposit\":true,\"AcctRemark\":\"\",\"IsLendingOneness\":false,\"CardTailNo\":\"0531\",\"IsPension\":false,\"ActTyp\":\"A1000101\"}}],\"ForDepSortLists\":[],\"ConsumeAccountSortLists\":[],\"ProAccNo\":\"4NY2HJGQXQG528UN4MkFacituKw4QXJoC5CloCn5Vk4_\",\"SumAsCurrentBalance\":3099043.48,\"SumAsCurrentBalanceDis\":\"3,099,043.48\",\"SumAs01Balance\":3099043.48,\"SumAs01BalanceDis\":\"3,099,043.48\",\"SumForeignBalance\":0.0,\"SumForeignBalanceDis\":\"0.00\",\"Deposit\":3099043.48,\"RMBDeposit\":3099043.48,\"RMBDepositDis\":\"3,099,043.48\",\"RMBDepositD\":3099043.48,\"RMBDepositDisD\":\"3,099,043.48\",\"RMBDepositE\":0.0,\"RMBDepositDisE\":\"0.00\",\"HaveInvest\":true,\"IsLendingOneness\":false,\"LendingAccountUid\":\"\",\"CompartmentList\":\"\",\"X86CardList\":\"\"}"
+	}
+};
+
+$done({ body: JSON.stringify(data) });
